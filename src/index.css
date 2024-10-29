@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   .link {
+      @apply cursor-pointer hover:text-blue-dark border-b-4 border-transparent hover:border-orange-default max-h-14 pb-10
+   }
+
+   .btn {
+      @apply w-12 h-12 bg-white rounded-full p-3 flex items-center justify-center
+   }
+
+   .nav {
+      @apply hover:text-orange-default font-bold cursor-pointer
+   } 
+}
